@@ -90,6 +90,6 @@ SHT40 是物联网(IoT)设备和环境监测系统中的理想选择。
 - [原理图.pdf](/wiki/fpc-series/fpc-sht40/hardware/FPC-SHT40-CCStudio-SCH.pdf)
 - [尺寸图.pdf](/wiki/fpc-series/fpc-sht40/dimensions/FPC-SHT40-CCStudio-Dimensions.pdf)
 - [SHT4x数据手册.pdf](/wiki/fpc-series/fpc-sht40/docs/HT_DS_Datasheet_SHT4x_5.pdf)
-- [SHT4x注意事项.pdf](public/wiki/fpc-series/fpc-sht40/docs/HT_Handling_Instructions_SHTxx.pdf)
+- [SHT4x注意事项.pdf](/wiki/fpc-series/fpc-sht40/docs/HT_Handling_Instructions_SHTxx.pdf)
 - [所有资源](/wiki/fpc-series/fpc-sht40/DXF-SHT40-circle.rar)
 - [购买链接 🛒](https://item.taobao.com/item.htm?id=939777159635)

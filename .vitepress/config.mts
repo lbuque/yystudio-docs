@@ -5,6 +5,12 @@ export default defineConfig({
   title: "YYStudio",
   description: "让 DIY 变得更有乐趣",
   lastUpdated: true,
+  ignoreDeadLinks: [
+    // 忽略压缩文件的死链接检查
+    /\.rar$/,
+    /\.zip$/,
+    /\.7z$/
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
