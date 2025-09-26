@@ -32,5 +32,11 @@ features:
     details: Zigbee 是一种低功耗无线通信技术，广泛应用于智能家居和物联网领域。YYStudio 的 Zigbee 解决方案支持多设备互联，稳定可靠，助力构建高效便捷的智能系统。
     link: /wiki/zigbee-series/
     linkText: 查看
+  - icon:
+      src: /icon/tools2.svg
+    title: 工具与下载器
+    details: 专业的开发调试工具集，包含高速 ESP32 固件下载器、实时数据监测工具、串口调试助手等。支持一键固件烧录、数据可视化分析，让开发调试更高效便捷。
+    link: /wiki/tools/
+    linkText: 查看
 ---
 

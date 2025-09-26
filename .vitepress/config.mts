@@ -33,6 +33,17 @@ export default defineConfig({
               { text: 'Home Assistant', link: '/wiki/controller/spark-c3/home-assistant' },
               { text: 'USB Power模块(适用于继电器控制)', link: '/wiki/controller/spark-c3/usb-power' }
             ]
+          },
+          {
+            text: 'ESP32-C3 TFT Devkit',
+            link: '/wiki/controller/esp32-c3-tft-devkit',
+            collapsed: false,
+            items: [
+              { text: 'Arduino 入门', link: '/wiki/controller/esp32-c3-tft-devkit/arduino' },
+              { text: 'ESP-IDF 入门', link: '/wiki/controller/esp32-c3-tft-devkit/esp-idf' },
+              { text: 'PlatformIO 入门', link: '/wiki/controller/esp32-c3-tft-devkit/platformio' },
+              { text: 'MicroPython 入门', link: '/wiki/controller/esp32-c3-tft-devkit/micropython' }
+            ]
           }
         ]
       },
@@ -87,6 +98,20 @@ export default defineConfig({
               { text: 'ZGWUI 工具', link: '/wiki/zigbee-series/om15080-jn5189/zgwui' },
               { text: '资源下载', link: '/wiki/zigbee-series/om15080-jn5189/resource' }
             ]
+          }
+        ]
+      },
+      {
+        text: "工具与下载器",
+        collapsed: false,
+        items: [
+          {
+            text: 'Tiny Serial',
+            link: '/wiki/tools/tiny-serial'
+          },
+          {
+            text: 'CH343P 高速下载器',
+            link: '/wiki/tools/ch343p'
           }
         ]
       }

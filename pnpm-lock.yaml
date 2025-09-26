@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      esptool-js:
+        specifier: ^0.5.7
+        version: 0.5.7
       vitepress:
         specifier: 2.0.0-alpha.12
         version: 2.0.0-alpha.12(postcss@8.5.6)
@@ -461,6 +464,9 @@ packages:
     peerDependencies:
       vue: ^3.5.0
 
+  atob-lite@2.0.0:
+    resolution: {integrity: sha512-LEeSAWeh2Gfa2FtlQE1shxQ8zi5F9GHarrGKz08TMdODD5T4eH6BMsvtnhbWZ+XQn+Gb6om/917ucvRu7l7ukw==}
+
   birpc@2.5.0:
     resolution: {integrity: sha512-VSWO/W6nNQdyP520F1mhf+Lc2f8pjGQOtoHHm7Ze8Go1kX7akpVIrtTa0fn+HB0QJEDVacl6aO08YE0PgXfdnQ==}
 
@@ -498,6 +504,9 @@ packages:
     resolution: {integrity: sha512-CRbODhYyQx3qp7ZEwzxOk4JBqmD/seJrzPa/cGjY1VtIn5E09Oi9/dB4JwctnfZ8Q8iT7rioVv5k/FNT/uf54g==}
     engines: {node: '>=18'}
     hasBin: true
+
+  esptool-js@0.5.7:
+    resolution: {integrity: sha512-k3pkXU9OTySCd58OUDjuJWNnFjM+QpPWAghxyWPm3zNfaLiP4ex2jNd7Rj0jWPu3/fgvwau236tetsTZrh4x5g==}
 
   estree-walker@2.0.2:
     resolution: {integrity: sha512-Rfkk/Mp/DL7JVje3u18FxFujQlTNR2q6QfMSMB7AvCBx91NGj/ba3kCfza0f6dVDbw7YlRf/nDrn7pQrCCyQ/w==}
@@ -576,6 +585,9 @@ packages:
   oniguruma-to-es@4.3.3:
     resolution: {integrity: sha512-rPiZhzC3wXwE59YQMRDodUwwT9FZ9nNBwQQfsd1wfdtlKEyCdRV0avrTcSZ5xlIvGRVPd/cx6ZN45ECmS39xvg==}
 
+  pako@2.1.0:
+    resolution: {integrity: sha512-w+eufiZ1WuJYgPXbV/PO3NCMEc3xqylkKHzp8bxp1uW4qaSNQUkwmLLEc3kKsfz8lpV1F8Ht3U1Cm+9Srog2ug==}
+
   perfect-debounce@1.0.0:
     resolution: {integrity: sha512-xCy9V055GLEqoFaHoC1SoLIaLmWctgCUaBaWxDZ7/Zx4CTyX7cJQLJOok/orfjZAh9kEYpjJa4d0KcJmCbctZA==}
 
@@ -640,6 +652,9 @@ packages:
 
   trim-lines@3.0.1:
     resolution: {integrity: sha512-kRj8B+YHZCc9kQYdWfJB2/oUl9rA99qbowYYBtr4ui4mZyAQ2JpvVBd/6U2YloATfqBhBTSMhTpgBHtU0Mf3Rg==}
+
+  tslib@2.8.1:
+    resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==}
 
   unist-util-is@6.0.0:
     resolution: {integrity: sha512-2qCTHimwdxLfz+YzdGfkqNlH0tLi9xjTnHddPmJwtIG9MGsdbutfTc4P+haPD7l7Cjxf/WZj+we5qfVPvvxfYw==}
@@ -1060,6 +1075,8 @@ snapshots:
     dependencies:
       vue: 3.5.21
 
+  atob-lite@2.0.0: {}
+
   birpc@2.5.0: {}
 
   ccount@2.0.1: {}
@@ -1112,6 +1129,12 @@ snapshots:
       '@esbuild/win32-arm64': 0.25.9
       '@esbuild/win32-ia32': 0.25.9
       '@esbuild/win32-x64': 0.25.9
+
+  esptool-js@0.5.7:
+    dependencies:
+      atob-lite: 2.0.0
+      pako: 2.1.0
+      tslib: 2.8.1
 
   estree-walker@2.0.2: {}
 
@@ -1198,6 +1221,8 @@ snapshots:
       oniguruma-parser: 0.12.1
       regex: 6.0.1
       regex-recursion: 6.0.2
+
+  pako@2.1.0: {}
 
   perfect-debounce@1.0.0: {}
 
@@ -1286,6 +1311,8 @@ snapshots:
       picomatch: 4.0.3
 
   trim-lines@3.0.1: {}
+
+  tslib@2.8.1: {}
 
   unist-util-is@6.0.0:
     dependencies:
