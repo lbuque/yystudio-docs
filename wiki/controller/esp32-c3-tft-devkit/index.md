@@ -41,9 +41,9 @@ ESP32-C3 TFT Devkit 是一款体积小巧，搭配 SPI 屏幕接口的微控制�
 | SoC      | ESP32-C3 160MHz single core，支持 Wi-Fi，4MB flash |
 | 接口     | 14Pin TFT FPC 接口；8Pin TFT FPC 接口； HY2.0-4P Grove |
 | 工作温度 | 0 ~ 40°C |
-| 产品尺寸 | 30.48 * 57.969 MM |
+| 产品尺寸 | 30.48 x 57.969 MM |
 | 产品重量 | 10.9 g |
-| 包装尺寸 | 8 * 12 CM |
+| 包装尺寸 | 8 x 12 CM |
 | 毛重  | 11.8 g |
 
 ## 引脚说明

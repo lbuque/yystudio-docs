@@ -1,4 +1,14 @@
 import { defineConfig } from 'vitepress'
+import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url))
+
+// 检查 SSL 证书文件是否存在
+const sslKeyPath = path.resolve(__dirname, '../.ssl/localhost-key.pem')
+const sslCertPath = path.resolve(__dirname, '../.ssl/localhost.pem')
+const hasSSL = fs.existsSync(sslKeyPath) && fs.existsSync(sslCertPath)
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -11,6 +21,19 @@ export default defineConfig({
     /\.zip$/,
     /\.7z$/
   ],
+  vite: {
+    server: hasSSL ? {
+      https: {
+        key: fs.readFileSync(sslKeyPath),
+        cert: fs.readFileSync(sslCertPath),
+      },
+      host: 'localhost',
+      port: 5173
+    } : {
+      host: 'localhost',
+      port: 5173
+    }
+  },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -23,12 +46,12 @@ export default defineConfig({
       {
         text: '开发板',
         // link: '/wiki/controller',
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: 'Spark-C3',
             link: '/wiki/controller/spark-c3',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Home Assistant', link: '/wiki/controller/spark-c3/home-assistant' },
               { text: 'USB Power模块(适用于继电器控制)', link: '/wiki/controller/spark-c3/usb-power' }
@@ -37,7 +60,7 @@ export default defineConfig({
           {
             text: 'ESP32-C3 TFT Devkit',
             link: '/wiki/controller/esp32-c3-tft-devkit',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: 'Arduino 入门', link: '/wiki/controller/esp32-c3-tft-devkit/arduino' },
               { text: 'ESP-IDF 入门', link: '/wiki/controller/esp32-c3-tft-devkit/esp-idf' },
@@ -50,7 +73,7 @@ export default defineConfig({
       {
         text: '传感器(FPC)',
         // link: '/wiki/fpc-sensor',
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: 'FPC-SHT30',
@@ -69,12 +92,12 @@ export default defineConfig({
       {
         text: 'Zigbee 系列',
         // link: '/wiki/zigbee-series',
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: 'OM15020-JN5169',
             link: '/wiki/zigbee-series/om15020-jn5169',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '安装驱动', link: '/wiki/zigbee-series/om15020-jn5169/install-driver' },
               { text: '固件烧录', link: '/wiki/zigbee-series/om15020-jn5169/flash' },
@@ -89,7 +112,7 @@ export default defineConfig({
           {
             text: 'OM15080-JN5189',
             link: '/wiki/zigbee-series/om15080-jn5189',
-            collapsed: false,
+            collapsed: true,
             items: [
               { text: '安装驱动', link: '/wiki/zigbee-series/om15080-jn5189/install-driver' },
               { text: '固件烧录', link: '/wiki/zigbee-series/om15080-jn5189/flash' },
@@ -103,7 +126,7 @@ export default defineConfig({
       },
       {
         text: "工具与下载器",
-        collapsed: false,
+        collapsed: true,
         items: [
           {
             text: 'Tiny Serial',
@@ -112,6 +135,16 @@ export default defineConfig({
           {
             text: 'CH343P 高速下载器',
             link: '/wiki/tools/ch343p'
+          }
+        ]
+      },
+      {
+        text: "集成模块",
+        collapsed: true,
+        items: [
+          {
+            text: 'IMU Module',
+            link: '/wiki/module-series/imu-module'
           }
         ]
       }

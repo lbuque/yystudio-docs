@@ -1,11 +1,17 @@
 {
   "dependencies": {
+    "@miletorix/vitepress-image-viewer": "^1.1.4",
     "esptool-js": "^0.5.7",
-    "vitepress": "2.0.0-alpha.12"
+    "vitepress": "2.0.0-alpha.12",
+    "vitepress-plugin-announcement": "^0.1.5"
   },
   "scripts": {
     "docs:dev": "vitepress dev",
+    "docs:dev:https": "./dev-https.sh",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@types/node": "^24.5.2"
   }
 }

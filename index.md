@@ -38,5 +38,11 @@ features:
     details: 专业的开发调试工具集，包含高速 ESP32 固件下载器、实时数据监测工具、串口调试助手等。支持一键固件烧录、数据可视化分析，让开发调试更高效便捷。
     link: /wiki/tools/
     linkText: 查看
+  - icon:
+      src: /icon/sensor.svg
+    title: 集成模块
+    details: 将多种传感器集成于 PCB 上，支持通过 Grove 传感器连接线或者 Pmod 接口与主控板进行连接，适用于空间受限的创新应用场景。
+    link: /wiki/module-series/
+    linkText: 查看
 ---
 
