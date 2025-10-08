@@ -44,5 +44,11 @@ features:
     details: 将多种传感器集成于 PCB 上，支持通过 Grove 传感器连接线或者 Pmod 接口与主控板进行连接，适用于空间受限的创新应用场景。
     link: /wiki/module-series/
     linkText: 查看
+  - icon:
+      src: /icon/cable.svg
+    title: 连接线
+    details: 标准化的连接与配线解决方案，涵盖 Grove 线、FPC 软排线、调试下载线与电源线等多种形式。支持 I2C / UART / 模拟 / 数字等信号快速接入，提供多长度与规格选择，降低接线错误与原型搭建成本，让模块与主控的扩展更即插即用。
+    link: /wiki/cable/
+    linkText: 查看
 ---
 

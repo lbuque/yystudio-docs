@@ -15,6 +15,7 @@ export default defineConfig({
   title: "YYStudio",
   description: "让 DIY 变得更有乐趣",
   lastUpdated: true,
+  head: [['link', { rel: 'icon', href: '/icon/favicon.ico' }]],
   ignoreDeadLinks: [
     // 忽略压缩文件的死链接检查
     /\.rar$/,
@@ -36,12 +37,12 @@ export default defineConfig({
   },
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/icon/yy-logo-1.svg',
     nav: [
       { text: '主页', link: '/' },
       { text: '产品文档', link: '/wiki' },
       { text: '淘宝店铺 🛒', link: 'https://shop71031876.taobao.com/' }
     ],
-
     sidebar: [
       {
         text: '开发板',
@@ -149,7 +150,6 @@ export default defineConfig({
         ]
       }
     ],
-
     socialLinks: [
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ],

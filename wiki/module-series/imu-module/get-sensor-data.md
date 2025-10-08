@@ -28,8 +28,9 @@
                 },
                 {
                     name: 'Grove 连接线',
+                    url: '/wiki/cable/grove-cable',
                     quantity: 1,
-                    image: '/wiki/common/assets/grove-cable.jpg'
+                    image: '/wiki/cable/grove-cable/img/grove-mian.png'
                 }
             ]
         }

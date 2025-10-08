@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   t="1759884861098"
+   class="icon"
+   viewBox="0 0 1024 1024"
+   version="1.1"
+   p-id="5857"
+   width="200"
+   height="200"
+   id="svg6"
+   sodipodi:docname="连接线.svg"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     id="namedview6"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.9415642"
+     inkscape:cx="106.236"
+     inkscape:cy="57.452426"
+     inkscape:window-width="1512"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="38"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6" />
+  <path
+     d="M661.7088 266.6496h-196.4032V135.7824h196.4032v130.8672z m-188.8256-7.3728h181.4528V143.1552h-181.4528v116.1216z"
+     fill="#727272"
+     p-id="5858"
+     id="path1" />
+  <path
+     d="M661.7088 331.3664h-196.4032v-72.0896h196.4032v72.0896z m-188.8256-7.3728h181.4528v-57.344h-181.4528v57.344z"
+     fill="#727272"
+     p-id="5859"
+     id="path2" />
+  <path
+     d="m 419.4304,797.9008 c -19.456,0 -40.1408,-5.5296 -55.5008,-14.9504 l 3.8912,-6.3488 c 14.1312,8.6016 33.3824,13.7216 51.6096,13.7216 52.224,0 94.6176,-42.3936 94.6176,-94.6176 V 325.632 h 7.3728 v 370.0736 c 0,56.5248 -45.6704,102.1952 -101.9904,102.1952 z"
+     fill="#727272"
+     p-id="5860"
+     id="path3"
+     sodipodi:nodetypes="sccssccss"
+     style="fill:#2b2200"
+     inkscape:highlight-color="#000000" />
+  <path
+     d="m 419.4304,828.0064 c -19.0464,0 -38.0928,-4.096 -55.0912,-11.6736 l 3.072,-6.7584 c 15.9744,7.168 33.9968,11.0592 52.0192,11.0592 69.0176,0 125.1328,-56.1152 125.1328,-125.1328 V 325.632 h 7.3728 v 369.664 c 0,73.3184 -59.392,132.7104 -132.5056,132.7104 z"
+     fill="#727272"
+     p-id="5861"
+     id="path4"
+     inkscape:highlight-color="#e90000"
+     style="fill:#ff0000" />
+  <path
+     d="M424.96 888.2176H413.696c-16.5888 0-31.9488-2.048-48.7424-6.5536l1.8432-7.168c16.1792 4.3008 30.9248 6.144 46.8992 6.144h11.264c103.8336 0 188.2112-84.3776 188.2112-188.2112V325.632h7.3728v367.0016c0.2048 107.9296-87.6544 195.584-195.584 195.584z"
+     fill="#727272"
+     p-id="5862"
+     id="path5"
+     style="fill:#b3b3b3;fill-opacity:1" />
+  <path
+     d="M420.864 858.112h-2.8672c-18.432 0-35.2256-2.8672-53.248-9.216l2.4576-6.9632c17.2032 5.9392 33.3824 8.8064 50.7904 8.8064h2.8672c87.2448 0 158.1056-70.8608 158.1056-158.1056V325.632h7.3728v367.0016c0 91.3408-74.3424 165.4784-165.4784 165.4784z"
+     fill="#727272"
+     p-id="5863"
+     id="path6"
+     style="fill:#fdca00;fill-opacity:1" />
+</svg>
